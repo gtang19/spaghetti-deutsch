@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #27303f;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+}
+
+.pasta-container {
+  position: fixed;
+  top: 150px;
+  right: 10px;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+}
+.block {
+  width: 65%;
+  margin-right: auto;
+  margin-left: 5%;
+  margin-top: 15vh;
+  line-height: 1.5;
+  text-align: justify;
+
+}
+
+.progress-bar {
+  width: 25px;
+  position: relative;
+  top: 10px;
+  background: #e5c687;
+  margin: auto;
+  height: 0%;
+}
+#trapezoid {
+  position: fixed;
+  top: 190px;
+  border-top: 55px solid #D4D4D6;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0px;
+  width: 50px;
+  z-index: 3;
+}
+#circle {
+  margin: auto;
+  position: relative;
+  top: -20px;
+  width: 75px;
+  height: 75px;
+  background: #e5c687;
+  border-radius: 50%;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .block {
+    width: 40%;
+    margin-left: auto;
+    font-size: 20pt;
+  }
+  .pasta-container {
+    right: 10%
+  }
+}
